@@ -12,6 +12,7 @@ const questions = [
       { text: "Cuidados a longo prazo", correct: false }
     ]
   },
+{
 Question: "Em   que data se celebra o Dia Internacional da Literacia?",
 Options: [
 Text: "08 de Setembro",correct: true },
@@ -20,6 +21,7 @@ Text: "05 de Novembro",correct: false },
 Text: "10 de Janeiro",correct: false },
 ]
 },
+{
 Question: "Em que data foi constituída a Sociedade Portuguesa de Literacia em Saúde (SPLS)?",
 Options: [
 Text: "13 de Fevereiro de 2019",correct: false },
@@ -28,6 +30,7 @@ Text: "19 de Janeiro de 2022",correct: true },
 Text: "06 de Outubro de 2018",correct: false },
 ]
 },
+{
 Question: "Qual o âmbito de ação da Sociedade Portuguesa de Literacia em Saúde?",
 Options: [
 Text: "Associação sem fins lucrativos, de caráter científico e formativo que prossegue fins científicos, formativos, técnicos, organizativos, éticos e humanos na promoção, desenvolvimento e aperfeiçoamento da prática da Literacia em Saúde.",correct: true },
@@ -36,6 +39,7 @@ Text: "Sociedade não científica que pretende de uma forma informal discutir o 
 Text: "Sociedade privada fechada à sociedade",correct: false },
 ]
 },
+{
 Question: "Qual a data que assinala o Dia Mundial da Saúde?",
 Options: [
 Text: "06 de Novembro",correct: false },
