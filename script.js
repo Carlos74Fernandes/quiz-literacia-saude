@@ -12,44 +12,7 @@ const questions = [
       { text: "Cuidados a longo prazo", correct: false }
     ]
   },
-{
-Question: "Em   que data se celebra o Dia Internacional da Literacia?",
-Options: [
-Text: "08 de Setembro",correct: true },
-Text: "03 de Dezembro",correct: false },
-Text: "05 de Novembro",correct: false },
-Text: "10 de Janeiro",correct: false },
-    ]
-  },
-{
-Question: "Em que data foi constituída a Sociedade Portuguesa de Literacia em Saúde (SPLS)?",
-Options: [
-Text: "13 de Fevereiro de 2019",correct: false },
-Text: "10 de Março de 2020",correct: false },
-Text: "19 de Janeiro de 2022",correct: true },
-Text: "06 de Outubro de 2018",correct: false },
-    ]
-  },
-{
-Question: "Qual o âmbito de ação da Sociedade Portuguesa de Literacia em Saúde?",
-Options: [
-Text: "Associação sem fins lucrativos, de caráter científico e formativo que prossegue fins científicos, formativos, técnicos, organizativos, éticos e humanos na promoção, desenvolvimento e aperfeiçoamento da prática da Literacia em Saúde.",correct: true },
-Text: "Bolsa de emprego para profissionais de saúde",correct: false },
-Text: "Sociedade não científica que pretende de uma forma informal discutir o estado de saúde da nação",correct: false },
-Text: "Sociedade privada fechada à sociedade",correct: false },
-    ]
-  },
-{
-Question: "Qual a data que assinala o Dia Mundial da Saúde?",
-Options: [
-Text: "06 de Novembro",correct: false },
-Text: "07 de Abril",correct: true },
-Text: "03 de Janeiro",correct: false },
-Text: "04 de Abril",correct: false },
-    ]
-  },
-
-// Adicione outras questões aqui...
+  // Adicione outras questões aqui...
 ];
 
 document.getElementById("login-form").addEventListener("submit", function (e) {
@@ -98,15 +61,15 @@ function handleAnswer(option, answerElement) {
     answerElement.classList.add("incorrect");
     feedbackContainer.innerHTML = `<div class="star star-sad"></div><p>Não foi desta que acertou, mas não vamos esquecer que a resposta correta é: ${getCorrectAnswer()}</p>`;
   }
+
+  // Mostrar botão para próxima questão
+  document.getElementById("next-question").style.display = "inline-block";
+}
+
 function getCorrectAnswer() {
   const question = questions[currentQuestionIndex];
   const correctOption = question.options.find(option => option.correct);
   return correctOption.text;
-}
-
-
-  // Mostrar botão para próxima questão
-  document.getElementById("next-question").style.display = "inline-block";
 }
 
 function nextQuestion() {
