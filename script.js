@@ -11,23 +11,23 @@ const questions = [
       { text: "Realização de exames complexos", correct: false },
       { text: "Cuidados a longo prazo", correct: false }
     ]
-  }
+  },
   {
   Question: "Em que data se celebra o Dia Internacional da Literacia?",
 Options: [
-    {Text: "08 de Setembro",correct: true },
-    {Text: "03 de Dezembro",correct: false },
-    {Text: "05 de Novembro",correct: false },
-    {Text: "10 de Janeiro",correct: false },
+    { Text: "08 de Setembro",correct: true },
+    { Text: "03 de Dezembro",correct: false },
+    { Text: "05 de Novembro",correct: false },
+    { Text: "10 de Janeiro",correct: false },
 ]
 },
 {
 Question: "Em que data foi constituída a Sociedade Portuguesa de Literacia em Saúde (SPLS)?",
 Options: [
-  {Text: "13 de Fevereiro de 2019",correct: false },
-  {Text: "10 de Março de 2020",correct: false },
-  {Text: "19 de Janeiro de 2022",correct: true },
-  {Text: "06 de Outubro de 2018",correct: false },
+  { Text: "13 de Fevereiro de 2019",correct: false },
+  { Text: "10 de Março de 2020",correct: false },
+  { Text: "19 de Janeiro de 2022",correct: true },
+  { Text: "06 de Outubro de 2018",correct: false },
 ]
 },
 
